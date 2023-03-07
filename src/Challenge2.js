@@ -1,8 +1,9 @@
-export function Heading() {
-  return <p>Register here ...</p>;
+export function Heading(prop) {
+  return <p>{prop.hText}</p>;
 }
 
 export function Input() {
+    
   return (
     <div>
       <input className="inpp" placeholder="mobile.."></input>
@@ -12,11 +13,11 @@ export function Input() {
   );
 }
 
-export function Btn() {
+export function Btn(prop2) {
   return (
     <div>
       <br></br>
-      <button type="submit">Submit</button>
+      <button type="submit">{prop2.bText}</button>
     </div>
   );
 }

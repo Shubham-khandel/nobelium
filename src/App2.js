@@ -1,26 +1,21 @@
 import './App2.css'
 import { Btn, Heading, Input } from './Challenge2';
 
+const headingtext = "Register here ..."
+const btnText = "Submit"
+
 function App2(){
     return(
-        <div className='Box'>
+        <div className='Box2'>
             <div className='App2'>
-            <Heading/>
+            <Heading hText = {headingtext}/>
             <Input/>
-            <Btn/>
+            <Btn bText = {btnText}/>
         </div>
         </div>
         
         
     );
 }
-
-
-
-
-
-
-
-
 
 export default App2
