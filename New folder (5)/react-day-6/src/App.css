@@ -1,0 +1,79 @@
+.App {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+  background-color: antiquewhite;
+}
+
+.Box{
+  border: 2px solid #aa58cd;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: #aa58cd;
+  box-shadow: 0 4px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+h1{
+  color: aliceblue;
+}
+
+input{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+
+}
+
+.list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  margin: 10px;
+  padding: 5px;
+  margin-right: 80px;
+  border-radius: 5px;
+  width: 350px;
+  height: 30px;
+  background-color: beige;
+}
+
+.SubBut{
+  padding: 10px;
+  border-radius: 3px;
+  background-color: grey;
+  border: 1px solid grey;
+  margin: 3px;
+}
+
+.list li{
+  list-style: none;
+  border-radius: 5px;
+  
+}
+
+.list button{
+  position: relative;
+  margin: 5px;
+  margin-right: 0;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.listBox{
+  margin-top: 10px;
+  border: 2px solid #fe99f6;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  justify-content: space-evenly;
+  background-color:#fe99f6
+}
