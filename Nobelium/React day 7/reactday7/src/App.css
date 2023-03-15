@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  
+}
+
+
+
+.form-container, .signIn-form, .signUp-form{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container{
+  padding: 30px;
+  border-radius: 5px;
+  background-color: aliceblue;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+label{
+  font-size: 15px;
+  text-align: left;
+  padding: 5px 0;
+}
+
+input{
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin: 5px 0;
+  width: 300px;
+  box-shadow: 1px 0px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 5px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.signIn-signUp{
+  background-color: #4267B2;
+  border: none;
+  border-radius: 3px;
+  color: aliceblue;
+}
+
+.switch{
+  border: none;
+  text-decoration: underline;
+  background-color: aliceblue;
+}
+
+.switch:hover{
+  color: blue;
+}
+
+.greetings{
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.instru{
+  opacity: 0.5;
+  font-size: 12px;
+}

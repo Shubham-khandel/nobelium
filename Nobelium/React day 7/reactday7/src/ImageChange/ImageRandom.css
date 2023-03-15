@@ -1,0 +1,28 @@
+.Container{
+    text-align: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color:antiquewhite;
+}
+
+.Imagediv{
+    width: 500px;
+    height: 500px;
+    text-align: left;
+    border: 1px solid black;
+    background-size: 100%;
+    overflow: hidden;
+}
+
+.Button{
+   padding: 50px;
+}
+
+.Btn{
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
