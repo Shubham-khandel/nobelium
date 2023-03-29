@@ -1,0 +1,50 @@
+.question {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .questionNo{
+    color: blue;
+  }
+  
+  .answerOption {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  button {
+    display: block;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    width: 8rem;
+    margin-left: 20rem;
+  }
+  
+  .result {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .score {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .restartButton {
+    padding: 0.5rem;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .restartButton:hover {
+    background-color: #b71c1c;
+  }
+  

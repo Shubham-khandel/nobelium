@@ -1,0 +1,20 @@
+.answerOptionContainer {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 8px;
+  }
+  
+  .answerOption {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  }
+  
+  .answerOption input[type="radio"] {
+  margin-right: 5px;
+  position: absolute;
+  left: 40px;
+  transform: scale(2);
+  border: 2px solid;
+  }
